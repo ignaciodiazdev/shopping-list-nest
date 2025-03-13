@@ -7,6 +7,6 @@ services:
     ports:
       - 27017:27017
     environment:
-      MONGODB_DATABASE: react-nest-shopping-list
+      MONGODB_DATABASE: shopping-list-nest-react
     volumes:
       - ./mongo:/data/db
